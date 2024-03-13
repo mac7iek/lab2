@@ -4,10 +4,11 @@
 
 public class Main {
   public static void main(String[] args) {
-   for(int i = 0; i < 100; i+=4) {
-     System.out.println(i);
-   }
-    
+  int sum = 0;
+    for(int i = 1; i <=100; i+=2){
+      sum += i;
+    }
+    System.out.println(sum);
 }
 }
 //....
